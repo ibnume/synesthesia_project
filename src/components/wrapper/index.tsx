@@ -23,7 +23,7 @@ export default function Wrapper({
   const isMounted = !isReduceMotion && isPresence
 
   useEffect(() => {
-    setIsPresence(true)
+    if (window.innerWidth >= 640) setIsPresence(true)
   }, [])
 
   return (
