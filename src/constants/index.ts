@@ -1,1 +1,1 @@
-export const META_TITLE = 'Synesthesia'
+export const META_TITLE = 'Synesthesiaa'
